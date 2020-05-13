@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/cloud-starter-payment-10001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-starter-payment-zk-10002/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-starter-order-zk-11001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-starter-payment-consul-10003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-starter-order-consul-11002/pom.xml" />
       </list>
     </option>
   </component>
