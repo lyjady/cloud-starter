@@ -1,0 +1,21 @@
+server:
+  port: 11003
+spring:
+  application:
+    name: order-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka,http://127.0.0.1:7002/eureka
+  instance:
+    instance-id: order-service-11003
+    prefer-ip-address: true
+logging:
+  level:
+    org.augustus.order.feign: debug
+feign:
+  client:
+    config:
+      default:
+        readTimeout: 5000
+        connectTimeout: 2000

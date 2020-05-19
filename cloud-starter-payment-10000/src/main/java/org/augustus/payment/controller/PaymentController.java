@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * @author LinYongJin
  * @date 2020/5/4 16:39
@@ -36,5 +38,11 @@ public class PaymentController {
     @GetMapping("/port")
     public R serverPort() {
         return R.ok().put("data", port);
+    }
+
+    @GetMapping("/feignPort")
+    public R feignPort() throws InterruptedException {
+        TimeUnit.SECONDS.sleep(3);
+        return R.ok().put("data", "port: " + port);
     }
 }
