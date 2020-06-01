@@ -20,15 +20,9 @@ public class OrderController {
     @Autowired
     private PaymentFeignService paymentFeignService;
 
-    @HystrixCommand(fallbackMethod = "consumerFallback", commandProperties = {
-            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "1500")
-    })
     @GetMapping("/consumer/timeout")
+    @HystrixCommand(commandProperties = {@HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")})
     public R timeout() {
         return paymentFeignService.timeout();
-    }
-
-    public R consumerFallback() {
-        return R.ok().put("data", "消费者的服务降级");
     }
 }

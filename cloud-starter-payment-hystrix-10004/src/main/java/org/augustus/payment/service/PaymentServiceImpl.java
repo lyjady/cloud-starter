@@ -6,6 +6,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.augustus.entries.R;
 import org.springframework.stereotype.Service;
 
+import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -14,7 +15,7 @@ import java.util.concurrent.TimeUnit;
  */
 @Service
 @DefaultProperties(defaultFallback = "defaultFallback", commandProperties = {
-        @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "3000")
+        @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "5000")
 })
 public class PaymentServiceImpl {
 
