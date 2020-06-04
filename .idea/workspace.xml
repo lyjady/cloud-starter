@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f580af6-835e-4be9-8d68-89a478e05795" name="Default Changelist" comment="Consul, 修改Ribbon默认的lb规则">
-      <change afterPath="$PROJECT_DIR$/cloud-starter-gateway-88/src/main/java/org/augustus/gateway/filter/GlobalFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-starter-gateway-88/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-starter-gateway-88/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="1f580af6-835e-4be9-8d68-89a478e05795" name="Default Changelist" comment="Spring Cloud Gateway Filter" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +75,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22413793" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reactor" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -252,7 +245,7 @@
       <workItem from="1590239010055" duration="69000" />
       <workItem from="1591023976454" duration="28000" />
       <workItem from="1591274302835" duration="31000" />
-      <workItem from="1591274374951" duration="1773000" />
+      <workItem from="1591274374951" duration="2123000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka集群, Zookeeper作为注册中心">
       <created>1588950467131</created>
@@ -268,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589378994847</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring Cloud Gateway Filter">
+      <created>1591276466590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591276466590</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +290,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Eureka集群, Zookeeper作为注册中心" />
     <MESSAGE value="Consul, 修改Ribbon默认的lb规则" />
-    <option name="LAST_COMMIT_MESSAGE" value="Consul, 修改Ribbon默认的lb规则" />
+    <MESSAGE value="Spring Cloud Gateway Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Cloud Gateway Filter" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591274725869">
@@ -401,18 +402,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="810" y="355" key="Maven.ArtifactSearchDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588579410614" />
-    <state x="435" y="138" width="1365" height="987" key="SettingsEditor" timestamp="1591274777953">
+    <state x="435" y="138" width="1365" height="987" key="SettingsEditor" timestamp="1591276499032">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="435" y="138" width="1365" height="987" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591274777953" />
+    <state x="435" y="138" width="1365" height="987" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1591276499032" />
     <state width="611" height="448" key="SwitcherDM" timestamp="1589375291806">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="611" height="448" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1589375291806" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1589379042613">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1591276468160">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1589379042613" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1591276468160" />
     <state x="1072" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591274442182">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
