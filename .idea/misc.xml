@@ -14,6 +14,10 @@
         <option value="$PROJECT_DIR$/cloud-starter-order-zk-11001/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-starter-payment-consul-10003/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-starter-order-consul-11002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-starter-payment-hystrix-10004/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-starter-order-feign-11003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-starter-gateway-88/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-starter-order-hystrix-11004/pom.xml" />
       </list>
     </option>
   </component>

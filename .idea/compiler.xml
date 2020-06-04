@@ -7,16 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-starter-payment-10001" />
-        <module name="cloud-starter-payment-10000" />
+        <module name="cloud-starter-payment-hystrix-10004" />
+        <module name="cloud-starter-payment-zk-10002" />
         <module name="cloud-starter-eureka-server-7002" />
         <module name="cloud-starter-eureka-server-7001" />
+        <module name="cloud-starter-order-hystrix-11004" />
+        <module name="cloud-starter-payment-10001" />
+        <module name="cloud-starter-payment-10000" />
+        <module name="cloud-starter-gateway-88" />
         <module name="cloud-starter-order-11000" />
         <module name="cloud-starter-order-zk-11001" />
         <module name="cloud-starter-payment-consul-10003" />
         <module name="cloud-starter-order-consul-11002" />
+        <module name="cloud-starter-order-feign-11003" />
         <module name="cloud-starter-common" />
-        <module name="cloud-starter-payment-zk-10002" />
       </profile>
     </annotationProcessing>
   </component>
@@ -26,12 +30,16 @@
       <module name="cloud-starter-common" options="-parameters" />
       <module name="cloud-starter-eureka-server-7001" options="-parameters" />
       <module name="cloud-starter-eureka-server-7002" options="-parameters" />
+      <module name="cloud-starter-gateway-88" options="-parameters" />
       <module name="cloud-starter-order-11000" options="-parameters" />
       <module name="cloud-starter-order-consul-11002" options="-parameters" />
+      <module name="cloud-starter-order-feign-11003" options="-parameters" />
+      <module name="cloud-starter-order-hystrix-11004" options="-parameters" />
       <module name="cloud-starter-order-zk-11001" options="-parameters" />
       <module name="cloud-starter-payment-10000" options="-parameters" />
       <module name="cloud-starter-payment-10001" options="-parameters" />
       <module name="cloud-starter-payment-consul-10003" options="-parameters" />
+      <module name="cloud-starter-payment-hystrix-10004" options="-parameters" />
       <module name="cloud-starter-payment-zk-10002" options="-parameters" />
     </option>
   </component>

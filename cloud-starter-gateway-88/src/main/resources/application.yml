@@ -9,11 +9,14 @@ spring:
         - id: route_payment
           uri: lb://payment-service
           predicates:
-            - Path=/payment/**
+            - Path=/payment-service/**
             - After=2020-06-04T14:03:15.314+08:00[Asia/Shanghai]
             - Cookie=username, lyj
             - Header=X-real-IP, \d+
             - Query=username, lyj
+          filters:
+            - AddResponseHeader=gateway-filter-header, yes
+            - RewritePath=/payment-service(?<segment>/?.*), $\{segment}
 eureka:
   client:
     register-with-eureka: true #将服务注册到eureka
