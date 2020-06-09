@@ -1,10 +1,10 @@
-package org.augustus.eureka;
+package org.augustus.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CloudStarterEurekaServer7001ApplicationTests {
+class CloudStarterConfigClient3355ApplicationTests {
 
     @Test
     void contextLoads() {

@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    config:
+      label: master # 分支名
+      name: config # 文件名
+      profile: prod # profile名
+      uri: http://localhost:3344 # 配置中心地址
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"

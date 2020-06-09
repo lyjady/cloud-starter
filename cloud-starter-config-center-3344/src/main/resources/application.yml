@@ -1,0 +1,13 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lyjady/cloud-config.git
+          search-paths:
+            - cloud-config
+      label: master
