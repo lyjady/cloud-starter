@@ -1,0 +1,22 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: stream-provider
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 192.168.75.128
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        - output:
+            destination: streamExchange
+            content-type: application/json
+            binder: defaultRabbit

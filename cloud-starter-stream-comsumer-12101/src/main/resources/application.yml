@@ -1,0 +1,23 @@
+server:
+  port: 12101
+spring:
+  application:
+    name: stream-consumer
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: 192.168.75.128
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        - input:
+            destination: streamExchange
+            content-type: application/json
+            binder: defaultRabbit
+            group: stream
