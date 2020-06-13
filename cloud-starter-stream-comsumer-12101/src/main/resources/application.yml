@@ -11,13 +11,17 @@ spring:
           environment:
             spring:
               rabbitmq:
-                host: 192.168.75.128
+                host: 192.168.0.110
                 port: 5672
                 username: guest
                 password: guest
       bindings:
-        - input:
-            destination: streamExchange
-            content-type: application/json
-            binder: defaultRabbit
-            group: stream
+        input:
+          destination: streamExchange
+          content-type: application/json
+          binder: defaultRabbit
+          group: stream
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001:7001/eureka,http://eureka7002:7002/eureka #eureka的地址
