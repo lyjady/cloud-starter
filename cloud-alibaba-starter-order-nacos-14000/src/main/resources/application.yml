@@ -1,0 +1,10 @@
+server:
+  port: 14000
+spring:
+  application:
+    name: nacos-order-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.110:8848
+        service: ${spring.application.name}
