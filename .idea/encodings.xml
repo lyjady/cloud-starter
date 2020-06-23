@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-config-nacos-3366/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-order-nacos-14000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-payment-nacos-13000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-payment-nacos-13001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-payment-nacos-13001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-starter-config-center-3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-starter-config-client-3355/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-eureka-server-7001/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-eureka-server-7002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-gateway-88/src/main/java" charset="UTF-8" />
@@ -15,5 +22,8 @@
     <file url="file://$PROJECT_DIR$/cloud-starter-payment-consul-10003/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-payment-hystrix-10004/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-payment-zk-10002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-starter-stream-comsumer-12101/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-starter-stream-consumer-12100/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-starter-stream-provider-12000/src/main/java" charset="UTF-8" />
   </component>
 </project>
