@@ -2,6 +2,7 @@ package org.augustus.sentinel.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
+import org.augustus.sentinel.handler.CustomSentinelHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -37,5 +38,31 @@ public class SentinelController {
         System.out.println("p1: " + p1 + ", " + "p2: " + p2);
         System.out.println(exception.getMessage());
         return "custom fallback";
+    }
+
+    @GetMapping("/resource")
+    @SentinelResource(value = "resource", blockHandler = "resourceHandler")
+    public String resource() {
+        return "根据资源名进行限流";
+    }
+
+    public String resourceHandler(BlockException e) {
+        return "根据资源名限流的回调方法";
+    }
+
+    @GetMapping("/url")
+    @SentinelResource(value = "url", blockHandler = "urlHandler")
+    public String url() {
+        return "根据url进行限流";
+    }
+
+    public String urlHandler() {
+        return "据url进行限流的回调方法";
+    }
+
+    @GetMapping("/global")
+    @SentinelResource(value = "global", blockHandlerClass = CustomSentinelHandler.class, blockHandler = "custom2")
+    public String global() {
+        return "global";
     }
 }
