@@ -19,5 +19,6 @@ spring:
 logging:
   level:
     io.seata: info
+    org.augustus.account.mapper: debug
 mybatis:
   mapper-locations: classpath:mapper/**/*.xml

@@ -1,15 +1,18 @@
 package org.augustus.order.service.impl;
 
 
+import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.augustus.order.domain.Order;
+import org.augustus.order.feign.StorageFeignService;
 import org.augustus.order.mapper.OrderMapper;
 import org.augustus.order.feign.AccountFeignService;
 import org.augustus.order.service.OrderService;
-import org.augustus.order.feign.StorageService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.math.BigDecimal;
 
 /**
  * @Author EiletXie
@@ -19,12 +22,14 @@ import javax.annotation.Resource;
 @Slf4j
 public class OrderServiceImpl implements OrderService {
 
-    @Resource
+    @Autowired
     private OrderMapper orderMapper;
-    @Resource
+
+    @Autowired
     private AccountFeignService accountService;
-    @Resource
-    private StorageService storageService;
+
+    @Autowired
+    private StorageFeignService storageService;
 
     /**
      * 创建订单->调用库存服务扣减库存->调用账户服务扣减账户余额->修改订单状态
@@ -34,9 +39,15 @@ public class OrderServiceImpl implements OrderService {
      * @param order 订单对象
      */
     @Override
+    @GlobalTransactional(name = "shop_tx_group", rollbackFor = Exception.class)
     public void create(Order order) {
         // 1 新建订单
         log.info("开始新建订单");
+        order.setCount(1);
+        order.setMoney(new BigDecimal("10"));
+        order.setStatus(0);
+        order.setProductId(1L);
+        order.setUserId(1L);
         orderMapper.create(order);
 
         // 2 扣减库存
@@ -52,7 +63,7 @@ public class OrderServiceImpl implements OrderService {
         // 4 修改订单状态,从0到1,1代表已完成
         log.info("修改订单状态开始");
         orderMapper.update(order.getUserId(), 0);
-
         log.info("下订单结束了,O(∩_∩)O哈哈~");
+        throw new RuntimeException("seata exception");
     }
 }

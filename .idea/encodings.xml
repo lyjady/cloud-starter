@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-seata-order-21000/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-seata-storage-23000/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-config-nacos-3366/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-order-nacos-14000/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-payment-nacos-13000/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-payment-nacos-13001/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-alibaba-starter-payment-nacos-13001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-alibaba-stater-sentinel-8848/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-config-center-3344/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-starter-config-client-3355/src/main/java" charset="UTF-8" />

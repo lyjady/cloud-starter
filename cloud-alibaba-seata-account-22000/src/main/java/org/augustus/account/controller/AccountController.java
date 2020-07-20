@@ -3,6 +3,7 @@ package org.augustus.account.controller;
 
 import org.augustus.account.service.AccountService;
 import org.augustus.entries.R;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -20,7 +21,7 @@ public class AccountController {
     @Resource
     AccountService accountService;
 
-    @RequestMapping("/account/decrease")
+    @PostMapping("/account/decrease")
     public R decrease(@RequestParam("userId") Long userId, @RequestParam("money") BigDecimal money) {
         accountService.decrease(userId,money);
         return R.ok();

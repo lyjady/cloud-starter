@@ -20,7 +20,7 @@ import javax.sql.DataSource;
 @Configuration
 public class DataSourceProxyConfiguraiton {
 
-    @Value("${mybatis.mapperLocations}")
+    @Value("${mybatis.mapper-locations}")
     private String mapperLocation;
 
     @Bean
