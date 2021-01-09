@@ -19,24 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f580af6-835e-4be9-8d68-89a478e05795" name="Default Changelist" comment="Sentinel">
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/resources/registry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-seata-order-21000/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-seata-order-21000/src/main/resources/registry.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-seata-storage-23000/src/main/resources/file.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-seata-storage-23000/src/main/resources/registry.conf" afterDir="false" />
+    <list default="true" id="1f580af6-835e-4be9-8d68-89a478e05795" name="Default Changelist" comment="seata測試">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/java/org/augustus/account/config/DataSourceProxyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/java/org/augustus/account/config/DataSourceProxyConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/java/org/augustus/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/java/org/augustus/account/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-seata-account-22000/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-alibaba-seata-order-21000/src/main/java/org/augustus/order/config/DataSourceProxyConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-seata-order-21000/src/main/java/org/augustus/order/config/DataSourceProxyConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-alibaba-seata-order-21000/src/main/java/org/augustus/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-seata-order-21000/src/main/java/org/augustus/order/service/impl/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-alibaba-seata-storage-23000/src/main/java/org/augustus/storage/config/DataSourceProxyConfiguraiton.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-seata-storage-23000/src/main/java/org/augustus/storage/config/DataSourceProxyConfiguraiton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,6 +319,7 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Payment10000" />
+      <item itemvalue="Spring Boot.CloudAlibabaSeataStorage23000Application" />
       <item itemvalue="Spring Boot.CloudAlibabaSeataOrder21000Application" />
       <item itemvalue="Spring Boot.Order11000" />
       <item itemvalue="Spring Boot.EurekaServer7001" />
@@ -358,7 +344,6 @@
       <item itemvalue="Spring Boot.CloudAlibabaStarterConfigNacos3366Application" />
       <item itemvalue="Spring Boot.CloudAlibabaStaterSentinel8848Application" />
       <item itemvalue="Spring Boot.CloudAlibabaSeataAccount22000Application" />
-      <item itemvalue="Spring Boot.CloudAlibabaSeataStorage23000Application" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -388,7 +373,9 @@
       <workItem from="1593433247768" duration="912000" />
       <workItem from="1593435711946" duration="215000" />
       <workItem from="1594640872757" duration="4652000" />
-      <workItem from="1595246785983" duration="3608000" />
+      <workItem from="1595246785983" duration="4133000" />
+      <workItem from="1595251097321" duration="318000" />
+      <workItem from="1595748919765" duration="1623000" />
     </task>
     <task id="LOCAL-00001" summary="Eureka集群, Zookeeper作为注册中心">
       <created>1588950467131</created>
@@ -446,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594646655541</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="seata測試">
+      <created>1595250414245</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595250414245</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +467,8 @@
     <MESSAGE value="nacos" />
     <MESSAGE value="nacos集群配置" />
     <MESSAGE value="Sentinel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sentinel" />
+    <MESSAGE value="seata測試" />
+    <option name="LAST_COMMIT_MESSAGE" value="seata測試" />
   </component>
   <component name="WindowStateProjectService">
     <state x="872" y="358" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592485967762">
@@ -512,14 +507,14 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="446" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1592485642425" />
-    <state x="1035" y="316" width="584" height="768" key="#xdebugger.evaluate" timestamp="1595248546897">
+    <state x="1035" y="316" width="584" height="768" key="#xdebugger.evaluate" timestamp="1595250889719">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1035" y="316" width="584" height="768" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1595248546897" />
-    <state width="506" height="646" key="DebuggerActiveHint" timestamp="1594646193537">
+    <state x="1035" y="316" width="584" height="768" key="#xdebugger.evaluate/0.0.2560.1400@0.0.2560.1400" timestamp="1595250889719" />
+    <state width="506" height="646" key="DebuggerActiveHint" timestamp="1595250726723">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="506" height="646" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1594646193537" />
+    <state width="506" height="646" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1595250726723" />
     <state x="92" y="92" width="2376" height="1216" key="DiffContextDialog" timestamp="1589896894964">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -536,54 +531,54 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="852" y="313" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1588587651567" />
-    <state width="2005" height="522" key="GridCell.Tab.0.bottom" timestamp="1595250345874">
+    <state width="2005" height="522" key="GridCell.Tab.0.bottom" timestamp="1595251414575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595250345874" />
-    <state width="2005" height="522" key="GridCell.Tab.0.center" timestamp="1595250345874">
+    <state width="2005" height="522" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595251414575" />
+    <state width="2005" height="522" key="GridCell.Tab.0.center" timestamp="1595251414575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595250345874" />
-    <state width="2005" height="522" key="GridCell.Tab.0.left" timestamp="1595250345874">
+    <state width="2005" height="522" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595251414575" />
+    <state width="2005" height="522" key="GridCell.Tab.0.left" timestamp="1595251414575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595250345874" />
-    <state width="2005" height="522" key="GridCell.Tab.0.right" timestamp="1595250345874">
+    <state width="2005" height="522" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595251414575" />
+    <state width="2005" height="522" key="GridCell.Tab.0.right" timestamp="1595251414575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595250345874" />
-    <state width="2005" height="522" key="GridCell.Tab.1.bottom" timestamp="1595250211537">
+    <state width="2005" height="522" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595251414575" />
+    <state width="2005" height="522" key="GridCell.Tab.1.bottom" timestamp="1595251414575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595250211537" />
-    <state width="2005" height="522" key="GridCell.Tab.1.center" timestamp="1595250211537">
+    <state width="2005" height="522" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595251414575" />
+    <state width="2005" height="522" key="GridCell.Tab.1.center" timestamp="1595251414575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595250211537" />
-    <state width="2005" height="522" key="GridCell.Tab.1.left" timestamp="1595250211537">
+    <state width="2005" height="522" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595251414575" />
+    <state width="2005" height="522" key="GridCell.Tab.1.left" timestamp="1595251414575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595250211537" />
-    <state width="2005" height="522" key="GridCell.Tab.1.right" timestamp="1595250211537">
+    <state width="2005" height="522" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595251414575" />
+    <state width="2005" height="522" key="GridCell.Tab.1.right" timestamp="1595251414575">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595250211537" />
-    <state width="2005" height="522" key="GridCell.Tab.2.bottom" timestamp="1595250204076">
+    <state width="2005" height="522" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595251414575" />
+    <state width="2005" height="522" key="GridCell.Tab.2.bottom" timestamp="1595251350716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595250204076" />
-    <state width="2005" height="522" key="GridCell.Tab.2.center" timestamp="1595250204076">
+    <state width="2005" height="522" key="GridCell.Tab.2.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1595251350716" />
+    <state width="2005" height="522" key="GridCell.Tab.2.center" timestamp="1595251350716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595250204076" />
-    <state width="2005" height="522" key="GridCell.Tab.2.left" timestamp="1595250204076">
+    <state width="2005" height="522" key="GridCell.Tab.2.center/0.0.2560.1400@0.0.2560.1400" timestamp="1595251350716" />
+    <state width="2005" height="522" key="GridCell.Tab.2.left" timestamp="1595251350716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595250204076" />
-    <state width="2005" height="522" key="GridCell.Tab.2.right" timestamp="1595250204076">
+    <state width="2005" height="522" key="GridCell.Tab.2.left/0.0.2560.1400@0.0.2560.1400" timestamp="1595251350716" />
+    <state width="2005" height="522" key="GridCell.Tab.2.right" timestamp="1595251350716">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2005" height="522" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595250204076" />
+    <state width="2005" height="522" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1595251350716" />
     <state width="220" height="539" key="HiddenNamespacesPopup" timestamp="1588581303743">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -604,18 +599,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="611" height="456" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1595247336828" />
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1594646846390">
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2" timestamp="1595250420864">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1594646846390" />
+    <state x="872" y="429" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1595250420864" />
     <state x="1072" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595246875667">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1072" y="610" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1595246875667" />
-    <state x="821" y="347" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595249781337">
+    <state x="821" y="347" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1595250918046">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="821" y="347" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400@0.0.2560.1400" timestamp="1595249781337" />
+    <state x="821" y="347" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.2560.1400@0.0.2560.1400" timestamp="1595250918046" />
     <state x="92" y="92" width="2376" height="1216" key="dock-window-1" timestamp="1595247708670">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -628,18 +623,38 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="654" y="274" key="new project wizard/0.0.2560.1400@0.0.2560.1400" timestamp="1592485621053" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1595249161584">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1595250532298">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1595249161584" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1595250532298" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/cloud-alibaba-seata-order-21000/src/main/java/org/augustus/order/service/impl/OrderServiceImpl.java</url>
           <line>66</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.0.0/seata-all-1.0.0-sources.jar!/io/seata/core/rpc/netty/NettyClientChannelManager.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/seata/seata-all/1.0.0/seata-all-1.0.0-sources.jar!/io/seata/core/rpc/netty/NettyClientChannelManager.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/AbstractChannel.class</url>
+          <line>129</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.43.Final/netty-all-4.1.43.Final.jar!/io/netty/channel/socket/nio/NioSocketChannel.class</url>
+          <line>429</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
